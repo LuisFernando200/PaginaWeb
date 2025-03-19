@@ -12,6 +12,7 @@ $correo = $_POST['correo'] ?? null;
 $rol = $_POST['rol'] ?? null;
 $pass = $_POST['pass'] ?? null;
 
+
 // Verificar que se reciben todos los datos necesarios
 if ($id === null || $nombre === null || $apellidos === null || $correo === null || $rol === null) {
     echo json_encode(['success' => false, 'message' => 'Faltan datos requeridos.']);
