@@ -39,7 +39,7 @@ if (empty($productos)) {
             background-color: #f5f5f5;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #2C6B2F;
             color: white;
             padding: 15px;
             text-align: center;
